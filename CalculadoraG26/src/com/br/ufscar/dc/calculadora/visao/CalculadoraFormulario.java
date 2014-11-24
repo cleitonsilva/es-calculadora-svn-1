@@ -346,6 +346,11 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     private void btnDivisaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivisaoActionPerformed
       controle.adicionaOperador('/');
        atualizaOperandos();
+       /**
+ *
+ * @author AlunoA
+ * teste
+ */
     }//GEN-LAST:event_btnDivisaoActionPerformed
 
     private void btnMaisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMaisActionPerformed
