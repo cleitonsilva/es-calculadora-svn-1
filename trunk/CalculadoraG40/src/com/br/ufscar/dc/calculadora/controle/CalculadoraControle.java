@@ -6,7 +6,7 @@ package com.br.ufscar.dc.calculadora.controle;
 
 
 public class CalculadoraControle {
-    int operandoA, operandoB;
+    int primeiroOperando, operandoB;
     int resultado;
     int estado = 0;  
     char operacao = ' ';
@@ -14,16 +14,16 @@ public class CalculadoraControle {
     public Integer executaOperacao(){
         switch(operacao) {
             case '+' :
-                resultado = operandoA+operandoB;
+                resultado = primeiroOperando+operandoB;
                 break;
             case '-' :
-                resultado = operandoA-operandoB;
+                resultado = primeiroOperando-operandoB;
                  break;
             case '*' : 
-                resultado = operandoA*operandoB;
+                resultado = primeiroOperando*operandoB;
                  break;
             case '/':
-                resultado = operandoA/operandoB;
+                resultado = primeiroOperando/operandoB;
                 
                  break;
                     
@@ -35,7 +35,7 @@ public class CalculadoraControle {
     public void adicionaDigito(int digito){
         switch(estado){
             case 0 :
-                 operandoA = operandoA*10 +digito; 
+                 primeiroOperando = primeiroOperando*10 +digito; 
                 break;
             case 1:
                  operandoB = operandoB*10 + digito;
@@ -54,11 +54,11 @@ public class CalculadoraControle {
     }
 
     public Integer getOperandoA() {
-        return operandoA;
+        return primeiroOperando;
     }
 
     public void setOperandoA(Integer operandoA) {
-        this.operandoA = operandoA;
+        this.primeiroOperando = operandoA;
     }
 
     public Integer getOperandoB() {
@@ -89,7 +89,7 @@ public class CalculadoraControle {
          switch(estado){
              case 2 :
                  executaOperacao();
-                 operandoA = resultado;
+                 primeiroOperando = resultado;
                  operandoB = 0;
                  resultado = 0;
                  estado=1;
