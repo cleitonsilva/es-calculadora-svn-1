@@ -1,13 +1,11 @@
-/*ALOHA MIAME BEACH AWESOME!!
-/*ALOHA MIAME BEACH AWESOME!!
-/*ALOHA MIAME BEACH AWESOME!!
-/*ALOHA MIAME BEACH AWESOME!!
-/*ALOHA MIAME BEACH AWESOME!!
-/*ALOHA MIAME BEACH AWESOME!!
-/*ALOHA MIAME BEACH AWESOME!!
+// Comentário nada haver -JHOSEFER
+/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
+
+// Comentário nada haver0 -JHOSEFER 
+
 package com.br.ufscar.dc.calculadora.visao;
 
 /*ALOHA MIAME BEACH AWESOME!!
@@ -387,7 +385,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    // Comentário nada haver 1-JHOSEFER
     private void btnMenusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenusActionPerformed
        controle.adicionaOperador('-');
        atualizaOperandos();
@@ -417,7 +415,9 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
        controle.adicionaDigito(3);
        atualizaOperandos();
     }//GEN-LAST:event_btn3ActionPerformed
-
+    
+    // Comentário nada haver 3 -JHOSEFER
+    
     private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
         controle.adicionaDigito(5);
         atualizaOperandos();
@@ -427,12 +427,14 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
        controle.adicionaDigito(1);
        atualizaOperandos();
     }//GEN-LAST:event_btn6ActionPerformed
-
+    // Comentário nada haver 4 -JHOSEFER
+    
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
        controle.adicionaDigito(7);
        atualizaOperandos();
     }//GEN-LAST:event_btn7ActionPerformed
-
+    // Comentário nada haver 5 -JHOSEFER
+    
     private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
         controle.adicionaDigito(8);
        atualizaOperandos();
@@ -442,7 +444,8 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
        controle.adicionaDigito(9);
        atualizaOperandos();
     }//GEN-LAST:event_btn9ActionPerformed
-
+    // Comentário nada haver  6-JHOSEFER
+    
     private void btnDivisaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivisaoActionPerformed
       controle.adicionaOperador('/');
        atualizaOperandos();
@@ -457,7 +460,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
        controle.adicionaOperador('*');
        atualizaOperandos();
     }//GEN-LAST:event_btnMultiplicacaoActionPerformed
-
+    // Comentário nada haver -JHOSEFER
     private void btnIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIgualActionPerformed
      controle.executaOperacao();
      atualizaResultado();
