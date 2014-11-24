@@ -1,3 +1,4 @@
+//codigo do formulario calculadora
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -12,7 +13,7 @@ import javax.swing.JOptionPane;
  * @author Cleiton
  */
 public class CalculadoraFormulario extends javax.swing.JFrame {
-
+    //classe do formulario calc
     /**
      * Creates new form CalculadoraFormulario
      */
@@ -476,3 +477,4 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
 
    
 }
+//fimdoCodigo
