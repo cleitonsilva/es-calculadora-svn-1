@@ -56,6 +56,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
         btnMensagem = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(51, 51, 51));
 
         btnDivisao.setText("/");
         btnDivisao.addActionListener(new java.awt.event.ActionListener() {
@@ -144,7 +145,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel2.setBackground(new java.awt.Color(0, 0, 204));
+        jPanel2.setBackground(new java.awt.Color(0, 51, 51));
 
         btn5.setBackground(new java.awt.Color(153, 255, 153));
         btn5.setText("5");
