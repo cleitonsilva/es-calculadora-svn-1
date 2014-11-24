@@ -131,7 +131,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
 
         jLabel1.setText("Calculadora");
 
-        jPanel1.setBackground(new java.awt.Color(0, 204, 0));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 0));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         jLabel2.setText("=");
@@ -171,7 +171,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel2.setBackground(new java.awt.Color(0, 0, 204));
+        jPanel2.setBackground(new java.awt.Color(0, 204, 0));
 
         btn5.setText("5");
         btn5.addActionListener(new java.awt.event.ActionListener() {
