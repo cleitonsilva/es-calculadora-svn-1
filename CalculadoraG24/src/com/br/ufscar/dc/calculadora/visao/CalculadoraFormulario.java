@@ -146,6 +146,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(0, 0, 204));
 
+        btn5.setBackground(new java.awt.Color(153, 255, 153));
         btn5.setText("5");
         btn5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
