@@ -1,4 +1,4 @@
-/*
+/*OI
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -6,14 +6,17 @@ package com.br.ufscar.dc.calculadora.controle;
 
 /**
  *
- * @author Cleiton
+ * AAAAAAAAAAAAAAAAAAAAAAH EU JA NAO SEI O QUE FAZER TUDO PE RAPADO COM SALARIO ATRASADO
  */
+
+//HA
 public class CalculadoraControle {
     int operandoA, operandoB;
     int resultado;
     int estado = 0;  
     char operacao = ' ';
-       
+    
+    //HA
     public Integer executaOperacao(){
         switch(operacao) {
             case '+' :
@@ -34,7 +37,7 @@ public class CalculadoraControle {
         
         return resultado;
     }
-    
+    //HA
     public void adicionaDigito(int digito){
         switch(estado){
             case 0 :
@@ -49,13 +52,14 @@ public class CalculadoraControle {
         }
            
     }
+    //HA
     public void adicionaOperador(char operador){
        operacao = operador;
        estado++;
        validaEstado();
         
     }
-
+//O LEPO LEPO
     public Integer getOperandoA() {
         return operandoA;
     }
