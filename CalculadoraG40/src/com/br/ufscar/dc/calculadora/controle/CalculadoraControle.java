@@ -6,7 +6,7 @@ package com.br.ufscar.dc.calculadora.controle;
 
 
 public class CalculadoraControle {
-    int primeiroOperando, operandoB;
+    int operandoInicial, operandoB;
     int resultado;
     int estado = 0;  
     char operacao = ' ';
@@ -14,16 +14,16 @@ public class CalculadoraControle {
     public Integer executaOperacao(){
         switch(operacao) {
             case '+' :
-                resultado = primeiroOperando+operandoB;
+                resultado = operandoInicial+operandoB;
                 break;
             case '-' :
-                resultado = primeiroOperando-operandoB;
+                resultado = operandoInicial-operandoB;
                  break;
             case '*' : 
-                resultado = primeiroOperando*operandoB;
+                resultado = operandoInicial*operandoB;
                  break;
             case '/':
-                resultado = primeiroOperando/operandoB;
+                resultado = operandoInicial/operandoB;
                 
                  break;
                     
@@ -35,7 +35,7 @@ public class CalculadoraControle {
     public void adicionaDigito(int digito){
         switch(estado){
             case 0 :
-                 primeiroOperando = primeiroOperando*10 +digito; 
+                 operandoInicial = operandoInicial*10 +digito; 
                 break;
             case 1:
                  operandoB = operandoB*10 + digito;
@@ -54,11 +54,11 @@ public class CalculadoraControle {
     }
 
     public Integer getOperandoA() {
-        return primeiroOperando;
+        return operandoInicial;
     }
 
     public void setOperandoA(Integer operandoA) {
-        this.primeiroOperando = operandoA;
+        this.operandoInicial = operandoA;
     }
 
     public Integer getOperandoB() {
@@ -89,7 +89,7 @@ public class CalculadoraControle {
          switch(estado){
              case 2 :
                  executaOperacao();
-                 primeiroOperando = resultado;
+                 operandoInicial = resultado;
                  operandoB = 0;
                  resultado = 0;
                  estado=1;
