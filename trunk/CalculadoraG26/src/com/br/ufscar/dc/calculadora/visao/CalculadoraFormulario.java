@@ -289,7 +289,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnMenusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenusActionPerformed
-       controle.adicionaOperador('-');
+       controle.adicionaOperador('-'); 
        atualizaOperandos();
     }//GEN-LAST:event_btnMenusActionPerformed
 
@@ -344,7 +344,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btn9ActionPerformed
 
     private void btnDivisaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivisaoActionPerformed
-      controle.adicionaOperador('/');
+      controle.adicionaOperador('/');//operação de divisão
        atualizaOperandos();
        /**
  *
@@ -354,17 +354,17 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btnDivisaoActionPerformed
 
     private void btnMaisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMaisActionPerformed
-      controle.adicionaOperador('+');
+      controle.adicionaOperador('+');//operação de adição
        atualizaOperandos();
     }//GEN-LAST:event_btnMaisActionPerformed
 
     private void btnMultiplicacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMultiplicacaoActionPerformed
-       controle.adicionaOperador('*');
+       controle.adicionaOperador('*');//operação de multiplicação
        atualizaOperandos();
     }//GEN-LAST:event_btnMultiplicacaoActionPerformed
 
     private void btnIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIgualActionPerformed
-     controle.executaOperacao();
+     controle.executaOperacao();//clear
      atualizaResultado();
     }//GEN-LAST:event_btnIgualActionPerformed
 
