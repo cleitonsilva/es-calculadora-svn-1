@@ -10,6 +10,9 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author Aluno B
+ * Fiz Algumas alterações aqui ... nada muito grande
+
+ * @author Aluno B
  * Correção de bugs no codigo fonte do projeto calculdora
  * Data 24/11/2014
  */
