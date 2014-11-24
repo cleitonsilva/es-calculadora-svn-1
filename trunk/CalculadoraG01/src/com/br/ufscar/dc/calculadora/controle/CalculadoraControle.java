@@ -17,19 +17,17 @@ public class CalculadoraControle {
     public Integer executaOperacao(){
         switch(operacao) {
             case '+' :
-                resultado = operandoA+operandoB;
+                resultado = operandoA + operandoB;
                 break;
             case '-' :
-                resultado = operandoA-operandoB;
+                resultado = operandoA - operandoB;
                  break;
             case '*' : 
-                resultado = operandoA*operandoB;
+                resultado = operandoA * operandoB;
                  break;
             case '/':
-                resultado = operandoA/operandoB;
-                
-                 break;
-                    
+                resultado = operandoA / operandoB;
+                break;
         }
         
         return resultado;
@@ -38,7 +36,7 @@ public class CalculadoraControle {
     public void adicionaDigito(int digito){
         switch(estado){
             case 0 :
-                 operandoA = operandoA*10 +digito; 
+                 operandoA = operandoA*10 + digito; 
                 break;
             case 1:
                  operandoB = operandoB*10 + digito;
@@ -101,8 +99,4 @@ public class CalculadoraControle {
                  break;
          }
     }
-
-   
-    
-    
 }
