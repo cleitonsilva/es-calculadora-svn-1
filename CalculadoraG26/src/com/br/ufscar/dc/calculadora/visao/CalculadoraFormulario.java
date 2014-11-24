@@ -369,7 +369,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btnIgualActionPerformed
 
     private void btnMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMensagemActionPerformed
-        JOptionPane.showMessageDialog(null, "Oi, eu sou uma menssagem!");
+        JOptionPane.showMessageDialog(null, "Oi, eu sou uma menssagem!"); //mensagem
     }//GEN-LAST:event_btnMensagemActionPerformed
 
     private void btnApagarResultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnApagarResultadoActionPerformed
