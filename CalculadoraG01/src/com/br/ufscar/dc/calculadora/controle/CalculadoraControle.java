@@ -1,6 +1,9 @@
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
+ * Data: 24/11/2014 - tenho prova amanhã :(
+ * Descrição: Este programa implementa uma calaculadora simples.
+ *
  */
 package com.br.ufscar.dc.calculadora.controle;
 
@@ -13,7 +16,7 @@ public class CalculadoraControle {
     int resultado;
     int estado = 0;  
     char operacao = ' ';
-       
+     
     public Integer executaOperacao(){
         switch(operacao) {
             case '+' :
@@ -61,7 +64,8 @@ public class CalculadoraControle {
     public void setOperandoA(Integer operandoA) {
         this.operandoA = operandoA;
     }
-
+    
+    // Retorna o operando B
     public Integer getOperandoB() {
         return operandoB;
     }
