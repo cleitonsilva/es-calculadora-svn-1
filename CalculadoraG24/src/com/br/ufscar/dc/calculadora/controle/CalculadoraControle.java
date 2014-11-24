@@ -24,10 +24,10 @@ public class CalculadoraControle {
                  break;
             case '*' : 
                 resultado = operandoA*operandoB;
-                 break;
+                 break;//comentário aleatório
             case '/':
                 resultado = operandoA/operandoB;
-                
+                //comentário aleatório
                  break;
                     
         }
@@ -45,7 +45,7 @@ public class CalculadoraControle {
                 break;
                 default:
                     break;
-                
+                //comentário aleatório
         }
            
     }
@@ -62,6 +62,7 @@ public class CalculadoraControle {
 
     public void setOperandoA(Integer operandoA) {
         this.operandoA = operandoA;
+        //comentário aleatório
     }
 
     public Integer getOperandoB() {
@@ -71,7 +72,7 @@ public class CalculadoraControle {
     public void setOperandoB(Integer operandoB) {
         this.operandoB = operandoB;
     }
-
+//comentário aleatório
     public Integer getResultado() {
         return resultado;
     }
@@ -87,7 +88,7 @@ public class CalculadoraControle {
     public void setOperacao(char operacao) {
         this.operacao = operacao;
     }
-
+//comentário aleatório
     private void validaEstado() {
          switch(estado){
              case 2 :
@@ -102,3 +103,4 @@ public class CalculadoraControle {
          }
     }
 }
+//comentário aleatório
