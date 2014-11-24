@@ -1,20 +1,18 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.br.ufscar.dc.calculadora.controle;
 
 /**
- *
- * @author Cleiton
+ * @author Gabriela
  */
-public class CalculadoraControle {
+
+
+public class CalculadoraControle { // classe Calculadora
     int operandoA, operandoB;
     int resultado;
     int estado = 0;  
     char operacao = ' ';
        
-    public Integer executaOperacao(){
+    public Integer executaOperacao(){ //execucao das operacoes
         switch(operacao) {
             case '+' :
                 resultado = operandoA+operandoB;
@@ -35,7 +33,7 @@ public class CalculadoraControle {
         return resultado;
     }
     
-    public void adicionaDigito(int digito){
+    public void adicionaDigito(int digito){ //funcao de adicionar digitos 
         switch(estado){
             case 0 :
                  operandoA = operandoA*10 +digito; 
@@ -49,22 +47,22 @@ public class CalculadoraControle {
         }
            
     }
-    public void adicionaOperador(char operador){
+    public void adicionaOperador(char operador){ //adicionando op
        operacao = operador;
        estado++;
        validaEstado();
         
     }
 
-    public Integer getOperandoA() {
+    public Integer getOperandoA() { //retornando opA
         return operandoA;
     }
 
-    public void setOperandoA(Integer operandoA) {
+    public void setOperandoA(Integer operandoA) { //add opA
         this.operandoA = operandoA;
     }
 
-    public Integer getOperandoB() {
+    public Integer getOperandoB() { //ret opb
         return operandoB;
     }
 
