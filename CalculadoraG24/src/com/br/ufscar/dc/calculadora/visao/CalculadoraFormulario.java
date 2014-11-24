@@ -10,8 +10,17 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author Cleiton
+ * 
+ * 
+ * 
  */
-public class CalculadoraFormulario extends javax.swing.JFrame {
+
+// aadfasddfas
+
+///sdatrrhfgdfg
+
+//fgfgadfssdvdvasdfsdgfbgsd
+public class CalculadoraFormulario extends javax.swing.JFrame {// ntcosper
 
     /**
      * Creates new form CalculadoraFormulario
@@ -20,7 +29,16 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     public CalculadoraFormulario() {
         initComponents();
     }
-
+    //df
+    //d
+    //d
+    //d
+    //d
+    
+    //sfgsdf
+    //fvgsdvfsd
+    //gsdfasdf
+// dsoxcnsfjobnsdobdfniosdv
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
