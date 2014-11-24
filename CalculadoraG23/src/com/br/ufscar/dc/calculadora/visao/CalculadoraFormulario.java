@@ -2,6 +2,8 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
+
+
 package com.br.ufscar.dc.calculadora.visao;
 
 import com.br.ufscar.dc.calculadora.controle.CalculadoraControle;
@@ -323,72 +325,72 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+//asffasf
     private void btnMenusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenusActionPerformed
        controle.adicionaOperador('-');
        atualizaOperandos();
     }//GEN-LAST:event_btnMenusActionPerformed
-
+//asffasf
     private void txtOperandosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtOperandosActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtOperandosActionPerformed
-
+//asffasf
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
        controle.adicionaDigito(1);
        atualizaOperandos();
       
     }//GEN-LAST:event_btn1ActionPerformed
-
+//asffasf
     private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
       controle.adicionaDigito(4);
       atualizaOperandos();
     }//GEN-LAST:event_btn4ActionPerformed
-
+//asffasf
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
       controle.adicionaDigito(2);
        atualizaOperandos();
     }//GEN-LAST:event_btn2ActionPerformed
-
+//asffasf
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
        controle.adicionaDigito(3);
        atualizaOperandos();
     }//GEN-LAST:event_btn3ActionPerformed
-
+//asffasf
     private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
         controle.adicionaDigito(5);
         atualizaOperandos();
     }//GEN-LAST:event_btn5ActionPerformed
-
+//asffasf
     private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn6ActionPerformed
        controle.adicionaDigito(1);
        atualizaOperandos();
     }//GEN-LAST:event_btn6ActionPerformed
-
+//asffasf
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
        controle.adicionaDigito(7);
        atualizaOperandos();
     }//GEN-LAST:event_btn7ActionPerformed
-
+//asffasf
     private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
         controle.adicionaDigito(8);
        atualizaOperandos();
     }//GEN-LAST:event_btn8ActionPerformed
-
+//comenhaisfj
     private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn9ActionPerformed
        controle.adicionaDigito(9);
        atualizaOperandos();
     }//GEN-LAST:event_btn9ActionPerformed
-
+//comentario
     private void btnDivisaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivisaoActionPerformed
       controle.adicionaOperador('/');
        atualizaOperandos();
     }//GEN-LAST:event_btnDivisaoActionPerformed
-
+//comentariorara
     private void btnMaisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMaisActionPerformed
       controle.adicionaOperador('+');
        atualizaOperandos();
     }//GEN-LAST:event_btnMaisActionPerformed
-
+    //comentario
     private void btnMultiplicacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMultiplicacaoActionPerformed
        controle.adicionaOperador('*');
        atualizaOperandos();
