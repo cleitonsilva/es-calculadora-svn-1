@@ -4,10 +4,7 @@
  */
 package com.br.ufscar.dc.calculadora.controle;
 
-/**
- *
- * @author Cleiton
- */
+
 public class CalculadoraControle {
     int operandoA, operandoB;
     int resultado;
