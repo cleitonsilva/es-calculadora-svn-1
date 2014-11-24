@@ -9,6 +9,7 @@ package com.br.ufscar.dc.calculadora.controle;
 
 /**
  *
+ * @author Fernando Messias da Silva
  * @author Cleiton
  */
 public class CalculadoraControle {
