@@ -298,48 +298,48 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_txtOperandosActionPerformed
 
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
-       controle.adicionaDigito(1);
+       controle.adicionaDigito(1);//um
        atualizaOperandos();
       
     }//GEN-LAST:event_btn1ActionPerformed
 
     private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
-      controle.adicionaDigito(4);
+      controle.adicionaDigito(4);//quatro
       atualizaOperandos();
     }//GEN-LAST:event_btn4ActionPerformed
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
-      controle.adicionaDigito(2);
+      controle.adicionaDigito(2);//dois
        atualizaOperandos();
     }//GEN-LAST:event_btn2ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
-       controle.adicionaDigito(3);
+       controle.adicionaDigito(3);//tres
        atualizaOperandos();
     }//GEN-LAST:event_btn3ActionPerformed
 
     private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
-        controle.adicionaDigito(5);
+        controle.adicionaDigito(5);//cinco
         atualizaOperandos();
     }//GEN-LAST:event_btn5ActionPerformed
 
     private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn6ActionPerformed
-       controle.adicionaDigito(6);
+       controle.adicionaDigito(6);//seis
        atualizaOperandos();
     }//GEN-LAST:event_btn6ActionPerformed
 
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
-       controle.adicionaDigito(7);
+       controle.adicionaDigito(7);//sete
        atualizaOperandos();
     }//GEN-LAST:event_btn7ActionPerformed
 
     private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
-        controle.adicionaDigito(8);
+        controle.adicionaDigito(8);//oito
        atualizaOperandos();
     }//GEN-LAST:event_btn8ActionPerformed
 
     private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn9ActionPerformed
-       controle.adicionaDigito(9);
+       controle.adicionaDigito(9);//nove
        atualizaOperandos();
     }//GEN-LAST:event_btn9ActionPerformed
 
