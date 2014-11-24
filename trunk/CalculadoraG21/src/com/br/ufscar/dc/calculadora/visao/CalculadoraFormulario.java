@@ -106,6 +106,12 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
 
         jLabel2.setText("=");
 
+        txtResultado.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtResultadoActionPerformed(evt);
+            }
+        });
+
         txtOperandos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtOperandosActionPerformed(evt);
@@ -407,6 +413,16 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
         // TODO add your handling code here:
         /* Isso e uma mensangem */
     }//GEN-LAST:event_btnApagarResultadoActionPerformed
+
+    private void btnApagarResultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnApagarResultadoActionPerformed
+        // TODO add your handling code here:
+        //Eu odeio arrumar interface ;D
+    }//GEN-LAST:event_btnApagarResultadoActionPerformed
+
+    private void txtResultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtResultadoActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_txtResultadoActionPerformed
 
     private void atualizaOperandos(){
      String label ="" +controle.getOperandoA();
