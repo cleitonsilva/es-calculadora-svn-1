@@ -34,7 +34,9 @@ public class CalculadoraControle {
         
         return resultado;
     }
+    //sdfgsddggsgs
     
+    //sf/bsvasfad
     public void adicionaDigito(int digito){
         switch(estado){
             case 0 :
