@@ -13,6 +13,7 @@ import javax.swing.JOptionPane;
  * Não fiz Fiz Algumas alterações aqui ... nada muito grande ...
  * Correção de bugs no codigo fonte do projeto calculdora ...
  * Data 24/11/2014 ... verificar
+ * sdsdsd
  */
 public class CalculadoraFormulario extends javax.swing.JFrame {
 
