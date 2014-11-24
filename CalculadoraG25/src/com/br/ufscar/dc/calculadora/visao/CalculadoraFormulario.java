@@ -373,17 +373,17 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btn9ActionPerformed
 
     private void btnDivisaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivisaoActionPerformed
-      controle.adicionaOperador('/');
+      controle.adicionaOperador('/');//operador /
        atualizaOperandos();
     }//GEN-LAST:event_btnDivisaoActionPerformed
 
     private void btnMaisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMaisActionPerformed
-      controle.adicionaOperador('+');
+      controle.adicionaOperador('+');//operador +
        atualizaOperandos();
     }//GEN-LAST:event_btnMaisActionPerformed
 
     private void btnMultiplicacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMultiplicacaoActionPerformed
-       controle.adicionaOperador('+');
+       controle.adicionaOperador('*');//operador *
        atualizaOperandos();
     }//GEN-LAST:event_btnMultiplicacaoActionPerformed
 
