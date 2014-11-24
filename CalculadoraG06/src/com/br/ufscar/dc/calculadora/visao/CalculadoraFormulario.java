@@ -321,6 +321,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+//Adicionar botao de menos no campo de texto    
     private void btnMenusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenusActionPerformed
        controle.adicionaOperador('-');
        atualizaOperandos();
@@ -330,12 +331,14 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtOperandosActionPerformed
 
+//botao para adicionar o digito 1 ao campo de escrita
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
        controle.adicionaDigito(1);
        atualizaOperandos();
       
     }//GEN-LAST:event_btn1ActionPerformed
 
+//botao para adicionar o digito 4 ao campo de escrita
     private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
       controle.adicionaDigito(4);
       atualizaOperandos();
