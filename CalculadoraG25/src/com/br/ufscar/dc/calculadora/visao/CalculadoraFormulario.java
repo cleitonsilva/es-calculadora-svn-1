@@ -327,53 +327,53 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_txtOperandosActionPerformed
 
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
-       controle.adicionaDigito(1);
+       controle.adicionaDigito(1); //adiciona 1
        atualizaOperandos();
       
     }//GEN-LAST:event_btn1ActionPerformed
 
     private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
-      controle.adicionaDigito(4);
+      controle.adicionaDigito(4); //adiciona 4
       atualizaOperandos();
     }//GEN-LAST:event_btn4ActionPerformed
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
-      controle.adicionaDigito(2);
+      controle.adicionaDigito(2); //adiciona 2
        atualizaOperandos();
     }//GEN-LAST:event_btn2ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
-       controle.adicionaDigito(3);
+       controle.adicionaDigito(3);//adiciona 3
        atualizaOperandos();
     }//GEN-LAST:event_btn3ActionPerformed
 
     private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
-        controle.adicionaDigito(5);
+        controle.adicionaDigito(5);//adiciona 5
         atualizaOperandos();
     }//GEN-LAST:event_btn5ActionPerformed
 
     private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn6ActionPerformed
-       controle.adicionaDigito(1);
+       controle.adicionaDigito(1);//adiciona 1
        atualizaOperandos();
     }//GEN-LAST:event_btn6ActionPerformed
 
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
-       controle.adicionaDigito(7);
+       controle.adicionaDigito(7);//adiciona 7
        atualizaOperandos();
     }//GEN-LAST:event_btn7ActionPerformed
 
     private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
-        controle.adicionaDigito(8);
+        controle.adicionaDigito(8);//adiciona 8
        atualizaOperandos();
     }//GEN-LAST:event_btn8ActionPerformed
 
     private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn9ActionPerformed
-       controle.adicionaDigito(9);
+       controle.adicionaDigito(9);//adiciona 9
        atualizaOperandos();
     }//GEN-LAST:event_btn9ActionPerformed
 
     private void btnDivisaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivisaoActionPerformed
-      controle.adicionaOperador('/');//operador /
+      controle.adicionaOperador('/');//divisao
        atualizaOperandos();
     }//GEN-LAST:event_btnDivisaoActionPerformed
 
@@ -388,12 +388,12 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btnMultiplicacaoActionPerformed
 
     private void btnIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIgualActionPerformed
-     controle.executaOperacao();
+     controle.executaOperacao();//igual
      atualizaResultado();
     }//GEN-LAST:event_btnIgualActionPerformed
 
     private void btnMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMensagemActionPerformed
-        JOptionPane.showMessageDialog(null, "Oi, eu sou uma menssagem!");
+        JOptionPane.showMessageDialog(null, "Oi, eu sou Goku!");
     }//GEN-LAST:event_btnMensagemActionPerformed
 
     private void atualizaOperandos(){
