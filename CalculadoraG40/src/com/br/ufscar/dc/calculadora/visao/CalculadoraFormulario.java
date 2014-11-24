@@ -96,7 +96,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
 
         jLabel1.setText("Minha Calculadora ES");
 
-        jPanel1.setBackground(new java.awt.Color(255, 102, 0));
+        jPanel1.setBackground(new java.awt.Color(102, 102, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         jLabel2.setText("=");
@@ -136,7 +136,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel2.setBackground(new java.awt.Color(153, 153, 0));
+        jPanel2.setBackground(new java.awt.Color(153, 255, 153));
 
         btn5.setText("5");
         btn5.addActionListener(new java.awt.event.ActionListener() {
@@ -353,7 +353,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btn6ActionPerformed
 
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
-       controle.adicionaDigito(1);
+       controle.adicionaDigito(7);
        atualizaOperandos();
     }//GEN-LAST:event_btn7ActionPerformed
 
