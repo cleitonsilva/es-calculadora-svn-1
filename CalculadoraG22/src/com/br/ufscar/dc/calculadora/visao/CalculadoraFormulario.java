@@ -362,7 +362,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btn7ActionPerformed
 
     private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
-        controle.adicionaDigito(8);
+        controle.adicionaDigito(8); //dsdsasd
        atualizaOperandos();
     }//GEN-LAST:event_btn8ActionPerformed
 
