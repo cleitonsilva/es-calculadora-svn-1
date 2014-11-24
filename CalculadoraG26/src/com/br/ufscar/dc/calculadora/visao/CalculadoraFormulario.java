@@ -56,6 +56,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
         btnMensagem = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(350, 480));
         getContentPane().setLayout(null);
 
         btnDivisao.setText("/");
@@ -65,7 +66,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnDivisao);
-        btnDivisao.setBounds(140, 330, 40, 23);
+        btnDivisao.setBounds(130, 340, 40, 23);
 
         btnIgual.setText("=");
         btnIgual.addActionListener(new java.awt.event.ActionListener() {
@@ -74,7 +75,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnIgual);
-        btnIgual.setBounds(100, 360, 40, 23);
+        btnIgual.setBounds(90, 370, 40, 23);
 
         btnMenus.setText("-");
         btnMenus.addActionListener(new java.awt.event.ActionListener() {
@@ -83,7 +84,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnMenus);
-        btnMenus.setBounds(60, 330, 40, 23);
+        btnMenus.setBounds(50, 340, 40, 23);
 
         btnMultiplicacao.setText("*");
         btnMultiplicacao.setMaximumSize(new java.awt.Dimension(37, 23));
@@ -93,7 +94,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnMultiplicacao);
-        btnMultiplicacao.setBounds(180, 330, 40, 23);
+        btnMultiplicacao.setBounds(170, 340, 40, 23);
 
         btnMais.setText("+");
         btnMais.addActionListener(new java.awt.event.ActionListener() {
@@ -102,7 +103,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnMais);
-        btnMais.setBounds(60, 360, 40, 23);
+        btnMais.setBounds(50, 370, 40, 23);
 
         btnApagarResultado.setText("C");
         btnApagarResultado.addActionListener(new java.awt.event.ActionListener() {
@@ -111,7 +112,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnApagarResultado);
-        btnApagarResultado.setBounds(100, 330, 40, 23);
+        btnApagarResultado.setBounds(90, 340, 40, 23);
 
         jLabel1.setText("Calculadora");
         getContentPane().add(jLabel1);
@@ -135,7 +136,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(38, Short.MAX_VALUE)
                 .addComponent(txtOperandos, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel2)
@@ -273,7 +274,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
         );
 
         getContentPane().add(jPanel2);
-        jPanel2.setBounds(30, 100, 237, 213);
+        jPanel2.setBounds(20, 110, 237, 213);
 
         btnMensagem.setText("Mensagem");
         btnMensagem.addActionListener(new java.awt.event.ActionListener() {
@@ -282,7 +283,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnMensagem);
-        btnMensagem.setBounds(140, 360, 90, 23);
+        btnMensagem.setBounds(130, 370, 90, 23);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -328,7 +329,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btn6ActionPerformed
 
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
-       controle.adicionaDigito(1);
+       controle.adicionaDigito(7);
        atualizaOperandos();
     }//GEN-LAST:event_btn7ActionPerformed
 
