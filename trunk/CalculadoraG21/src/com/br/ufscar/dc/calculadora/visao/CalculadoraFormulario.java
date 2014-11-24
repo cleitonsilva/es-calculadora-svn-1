@@ -93,6 +93,11 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
         });
 
         btnApagarResultado.setText("C");
+        btnApagarResultado.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnApagarResultadoActionPerformed(evt);
+            }
+        });
 
         jLabel1.setText("Calculadora");
 
@@ -393,13 +398,17 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
      controle.executaOperacao();
      atualizaResultado();
     }//GEN-LAST:event_btnIgualActionPerformed
-
+    
     private void btnMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMensagemActionPerformed
         JOptionPane.showMessageDialog(null, "Oi, eu sou uma menssagem!");
     }//GEN-LAST:event_btnMensagemActionPerformed
+    
+    private void btnApagarResultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnApagarResultadoActionPerformed
+        // TODO add your handling code here:
+        /* Isso e uma mensangem */
+    }//GEN-LAST:event_btnApagarResultadoActionPerformed
 
     private void atualizaOperandos(){
-    
      String label ="" +controle.getOperandoA();
      if(controle.getOperacao()!=' '){
       label+=" "+controle.getOperacao();
