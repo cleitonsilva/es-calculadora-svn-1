@@ -96,7 +96,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
 
         jLabel1.setText("Calculadora");
 
-        jPanel1.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 0));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         jLabel2.setText("=");
