@@ -385,12 +385,12 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btnMaisActionPerformed
 
     private void btnMultiplicacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMultiplicacaoActionPerformed
-       controle.adicionaOperador('+');
+       controle.adicionaOperador('*');
        atualizaOperandos();
     }//GEN-LAST:event_btnMultiplicacaoActionPerformed
 
     private void btnIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIgualActionPerformed
-     controle.executaOperacao();
+     controle.executaOperacao('=');
      atualizaResultado();
     }//GEN-LAST:event_btnIgualActionPerformed
 
