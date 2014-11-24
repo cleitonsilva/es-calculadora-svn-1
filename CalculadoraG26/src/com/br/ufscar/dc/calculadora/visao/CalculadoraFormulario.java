@@ -161,7 +161,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(10, 38, 260, 56);
 
-        jPanel2.setBackground(new java.awt.Color(0, 0, 204));
+        jPanel2.setBackground(new java.awt.Color(255, 51, 51));
 
         btn5.setText("5");
         btn5.addActionListener(new java.awt.event.ActionListener() {
@@ -309,7 +309,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btn4ActionPerformed
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
-      controle.adicionaDigito(1);
+      controle.adicionaDigito(2);
        atualizaOperandos();
     }//GEN-LAST:event_btn2ActionPerformed
 
@@ -324,7 +324,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btn5ActionPerformed
 
     private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn6ActionPerformed
-       controle.adicionaDigito(1);
+       controle.adicionaDigito(6);
        atualizaOperandos();
     }//GEN-LAST:event_btn6ActionPerformed
 
