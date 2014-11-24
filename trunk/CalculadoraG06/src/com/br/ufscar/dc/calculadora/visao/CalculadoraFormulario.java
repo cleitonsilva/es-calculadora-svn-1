@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Cleiton
+ * @author AlunoB
  */
 public class CalculadoraFormulario extends javax.swing.JFrame {
 
@@ -330,7 +330,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     private void txtOperandosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtOperandosActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtOperandosActionPerformed
-
+    //Adiciona o botão referente ao número 1
 //botao para adicionar o digito 1 ao campo de escrita
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
        controle.adicionaDigito(1);
