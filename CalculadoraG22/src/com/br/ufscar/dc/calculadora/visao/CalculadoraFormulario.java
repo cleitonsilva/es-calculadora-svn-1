@@ -107,7 +107,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setText("Resultado ;;;");
+        jLabel3.setText("Resultado ");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -264,7 +264,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 35, Short.MAX_VALUE))
+                .addGap(0, 38, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -357,7 +357,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btn6ActionPerformed
 
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
-       controle.adicionaDigito(1);
+       controle.adicionaDigito(7);
        atualizaOperandos();
     }//GEN-LAST:event_btn7ActionPerformed
 
