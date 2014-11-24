@@ -338,7 +338,7 @@ public class CalculadoraFormulario extends javax.swing.JFrame {
     }//GEN-LAST:event_btn4ActionPerformed
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
-      controle.adicionaDigito(1);
+      controle.adicionaDigito(2);
        atualizaOperandos();
     }//GEN-LAST:event_btn2ActionPerformed
 
